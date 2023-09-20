@@ -2124,8 +2124,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('./public/file/image/DabramPlusGit.gif');
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/DanielBarteh\/DabramX_Demo\/master\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('https://raw.githubusercontent.com/DanielBarteh/DabramX_Demo/master/public/file/image/DabramPlusGit.gif');
 }
 
 .bg-footer {
@@ -2136,24 +2136,10 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-\[url\(\'\.\.\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('../public/file/image/DabramPlusGit.gif');
-}
-
-.bg-\[url\(\'public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('public/file/image/DabramPlusGit.gif');
-}
-
-.bg-\[url\(\'\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('/public/file/image/DabramPlusGit.gif');
-}
-
-.bg-\[url\(\'https\:\/\/github\.com\/DanielBarteh\/DabramX_Demo\/blob\/master\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('https://github.com/DanielBarteh/DabramX_Demo/blob/master/public/file/image/DabramPlusGit.gif');
-}
-
-.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/DanielBarteh\/DabramX_Demo\/master\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('https://raw.githubusercontent.com/DanielBarteh/DabramX_Demo/master/public/file/image/DabramPlusGit.gif');
+.from-\[\#ff8f00\] {
+  --tw-gradient-from: #ff8f00 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 143 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-blue-500 {
@@ -2176,6 +2162,25 @@ video {
 .via-orange-500 {
   --tw-gradient-to: rgb(249 115 22 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #f97316 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-orange-300 {
+  --tw-gradient-to: rgb(253 186 116 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #fdba74 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-orange-200 {
+  --tw-gradient-to: rgb(254 215 170 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #fed7aa var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-orange-400 {
+  --tw-gradient-to: rgb(251 146 60 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #fb923c var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-\[\#ff8f00\] {
+  --tw-gradient-to: #ff8f00 var(--tw-gradient-to-position);
 }
 
 .to-blue-500 {
@@ -3132,11 +3137,6 @@ video {
 
 :is(.dark .dark\:to-slate-500) {
   --tw-gradient-to: #64748b var(--tw-gradient-to-position);
-}
-
-:is(.dark .dark\:text-orange-300) {
-  --tw-text-opacity: 1;
-  color: rgb(253 186 116 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-slate-300) {
