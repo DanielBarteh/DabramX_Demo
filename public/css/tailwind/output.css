@@ -667,10 +667,6 @@ video {
   top: 0px;
 }
 
-.top-\[7px\] {
-  top: 7px;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -812,10 +808,6 @@ video {
 
 .mt-\[-4px\] {
   margin-top: -4px;
-}
-
-.mt-\[-6px\] {
-  margin-top: -6px;
 }
 
 .box-border {
@@ -1070,13 +1062,13 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-y-\[7px\] {
-  --tw-translate-y: 7px;
+.translate-y-\[5px\] {
+  --tw-translate-y: 5px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-y-\[5px\] {
-  --tw-translate-y: 5px;
+.translate-y-\[7px\] {
+  --tw-translate-y: 7px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2132,8 +2124,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
-  background-image: url('/public/file/image/DabramPlusGit.gif');
+.bg-\[url\(\'\.\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('./public/file/image/DabramPlusGit.gif');
 }
 
 .bg-footer {
@@ -2142,6 +2134,26 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('../public/file/image/DabramPlusGit.gif');
+}
+
+.bg-\[url\(\'public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('public/file/image/DabramPlusGit.gif');
+}
+
+.bg-\[url\(\'\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('/public/file/image/DabramPlusGit.gif');
+}
+
+.bg-\[url\(\'https\:\/\/github\.com\/DanielBarteh\/DabramX_Demo\/blob\/master\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('https://github.com/DanielBarteh/DabramX_Demo/blob/master/public/file/image/DabramPlusGit.gif');
+}
+
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/DanielBarteh\/DabramX_Demo\/master\/public\/file\/image\/DabramPlusGit\.gif\'\)\] {
+  background-image: url('https://raw.githubusercontent.com/DanielBarteh/DabramX_Demo/master/public/file/image/DabramPlusGit.gif');
 }
 
 .from-blue-500 {
@@ -2345,8 +2357,8 @@ video {
   padding-bottom: 0.625rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
+.pb-\[80px\] {
+  padding-bottom: 80px;
 }
 
 .pt-1 {
@@ -2363,18 +2375,6 @@ video {
 
 .pt-\[2px\] {
   padding-top: 2px;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.pb-\[600px\] {
-  padding-bottom: 600px;
-}
-
-.pb-\[80px\] {
-  padding-bottom: 80px;
 }
 
 .text-left {
@@ -2966,14 +2966,6 @@ video {
   transition-duration: 100ms;
 }
 
-.duration-\[0\.5s\] {
-  transition-duration: 0.5s;
-}
-
-.duration-\[2s\] {
-  transition-duration: 2s;
-}
-
 .duration-\[1s\] {
   transition-duration: 1s;
 }
@@ -3294,10 +3286,6 @@ video {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .lg\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .lg\:pb-10 {
