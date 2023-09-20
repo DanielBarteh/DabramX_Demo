@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#menu::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: -20px;
+    top: 18px;
+    position: absolute;
+    border-top-right-radius: 25px;
+}
+#menu::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 18px;
+    position: absolute;
+    border-top-left-radius: 25px;
+}
+.menu_hover{
+    transition: all 0.5s ease-in-out;
+}
+.menu_hover span{
+    transition: all 0.5s ease-in-out;
+}
+.menu_hover:hover span{
+    transition: all 0.5s ease-in-out;
+    display: block !important;
+}

@@ -94,42 +94,46 @@
         </a>
     </section>
 <!--    application menu-->
-    <section class="z-50 flex lg:hidden bg-gradient-to-r from-orange-100 via-white to-orange-100 dark:bg-gradient-to-r dark:from-slate-800 dark:via-slate-700 border-slate-300 border-t-2 dark:to-slate-800 drop-shadow-lg bottom-0 fixed w-full justify-center items-center h-16 rounded-t-[15px]">
-        <section class="flex mx-auto h-full justify-end items-center w-full">
-            <a href="#">
-            <section class="text-center hover:bg-white dark:hover:bg-slate-300 mx-1 px-1 py-1 rounded-lg box-border">
-                <i class="fas -mb-1 text-xl fa-home block text-orange-400 dark:text-slate-400"></i>
-                <small class="text-black dark:text-white">خــانــــه</small>
-            </section>
-            </a>
-            <a href="#">
-            <section class="text-center hover:bg-white dark:hover:bg-slate-300 mx-1 px-1 py-1 rounded-lg box-border">
-                <i class="fas -mb-1 text-xl fa-boxes-packing block text-orange-400 dark:text-slate-400"></i>
-                <small class="text-black dark:text-white">دوره هــــا</small>
-            </section>
-            </a>
-        </section>
-        <section class="grid mx-auto -mt-[20px] text-[20px] bg-white dark:bg-slate-700 h-[90px] rounded-t-[50%] rounded-b-[15px] w-[100px] items-center border-slate-300 border-t-2 text-center">
-            <a href="#">
-            <section class="text-center hover:bg-white dark:hover:bg-slate-300 h-[90px] rounded-[50%] w-[100px] items-center justify-center">
-                <i class="fas mt-4 text-[30px] fa-user block text-orange-400 dark:text-slate-400"></i>
-                <small class="text-black dark:text-white">ورود کاربران</small>
-            </section>
-            </a>
-        </section>
-        <section class="flex mx-auto h-full justify-start items-center w-full">
-            <a href="#">
-            <section class="text-center hover:bg-white dark:hover:bg-slate-300 mx-1 px-1 py-1 rounded-lg box-border">
-                <i class="fas -mb-1 text-xl fa-handshake block text-orange-400 dark:text-slate-400"></i>
-                <small class="text-black dark:text-white">نمونه&nbsp;کار</small>
-            </section>
-            </a>
-            <a href="#">
-                <section class="text-center hover:bg-white dark:hover:bg-slate-300 mx-1 px-1 py-1 rounded-lg box-border">
-                    <i class="fas -mb-1 text-xl fa-globe block text-orange-400 dark:text-slate-400"></i>
-                    <small class="text-black dark:text-white">طراحی&nbsp;سایت</small>
+    <section class="z-[1000] lg:hidden relative w-full flex transition-all ease-in-out">
+        <a href="">
+            <section id="menu" class="dark:before:bg-white dark:after:bg-white before:bg-slate-800 after:bg-slate-800 dark:before:shadow-menu dark:after:shadow-menu before:shadow-menu-white after:shadow-menu-white bg-[#ff8f00] z-[1100] rounded-full h-[40px] w-[40px] bg-[#ff8f00] left-1/2 transform outline outline-4 outline-white dark:outline-slate-800 -translate-x-1/2 -translate-y-[22px] bottom-2 fixed flex justify-center items-center">
+                <section class="w-full h-fit menu_hover relative">
+                    <i id="menu_login" class="relative duration-[1s] transition ease-in-out transform fas fa-user text-white"></i>
+                    <span class="block mt-[-4px] text-white text-[7px]">
+                        ورود
+                    </span>
                 </section>
-            </a>
+            </section>
+        </a>
+        <section class="w-[93%] left-1/2 outline outline-[10px] outline-white dark:outline-slate-800 transform -translate-x-1/2 bottom-2 bg-slate-800 dark:bg-white h-[44px] rounded-full fixed flex justify-center items-center">
+            <section class="flex justify-end items-center me-10 px-1 rounded-xl h-[40px] col-span-1 w-1/2">
+                <a href="" class="rounded-full menu_hover pt-[2px]">
+                    <i class="relative duration-[1s] transition ease-in-out transform mx-4 text-white dark:text-slate-800 text-[20px] fa-solid fa-house-chimney"></i>
+                    <span class="block mt-[-4px] text-[10px] text-white dark:text-slate-800">
+                        خانه
+                    </span>
+                </a>
+                <a href="" class="rounded-full menu_hover pt-[2px]">
+                    <i class="relative duration-[1s] transition ease-in-out transform mx-4 text-white dark:text-slate-800 text-[20px] fa-solid fa-handshake"></i>
+                    <span class="block  mt-[-4px] text-[10px] text-white dark:text-slate-800">
+                        نمونه&nbsp;کار&nbsp;ها
+                    </span>
+                </a>
+            </section>
+            <section class="flex justify-start items-center ms-10 px-1 rounded-xl h-[40px] col-span-1 w-1/2">
+                <a href="" class="rounded-full menu_hover pt-[2px]">
+                    <i class="relative duration-[1s] transition ease-in-out transform mx-4 text-white dark:text-slate-800 text-[20px] fa-solid fa-boxes-packing"></i>
+                    <span class="block  mt-[-4px] text-[10px] text-white dark:text-slate-800">
+                        دوره&nbsp;ها
+                    </span>
+                </a>
+                <a href="" class="rounded-full menu_hover pt-[2px]">
+                    <i class="relative duration-[1s] transition ease-in-out transform mx-4 text-white dark:text-slate-800 text-[20px] fa-solid fa-sack-dollar"></i>
+                    <span class="block  mt-[-4px] text-[10px] text-white dark:text-slate-800">
+                        درآمد&nbsp;زایی
+                    </span>
+                </a>
+            </section>
         </section>
     </section>
 </nav>
@@ -419,7 +423,7 @@
                 </section>
             </section>
         </section>
-        <section class="flex text-center flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
+        <section class="flex text-center flex-col justify-between pt-5 lg:pb-10 pb-[80px] border-t border-deep-purple-accent-200 sm:flex-row">
             <small class="text-sm text-gray-100">
                 تمامی حقوق این پلتفرم برای دابرام محفوظ میباشد
             </small>

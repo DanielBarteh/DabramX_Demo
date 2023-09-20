@@ -1,4 +1,21 @@
 $(document).ready(function () {
+    var scroller_counter = false;
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 250) { // اگر به پایین اسکرول کردید
+            $('.menu_hover span').removeClass("animate__fadeInUp animate__animated"); // مخفی کردن متن
+            $('.menu_hover span').addClass("animate__fadeOutDown animate__animated");
+            $('.menu_hover #menu_login').addClass("translate-y-[5px]");
+            $('.menu_hover i:not(#menu_login)').addClass("translate-y-[7px]");
+            scroller_counter = true;
+        } else {
+            if (scroller_counter === true){
+                $('.menu_hover #menu_login').removeClass("translate-y-[5px]");
+                $('.menu_hover i:not(#menu_login)').removeClass("translate-y-[7px]");
+                $('.menu_hover span').removeClass("animate__fadeOutDown animate__animated"); // نمایش متن
+                $('.menu_hover span').addClass("animate__fadeInUp animate__animated");
+            }
+        }
+    });
     // loading js
     $("#loading").fadeOut();
     // alerts js

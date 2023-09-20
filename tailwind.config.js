@@ -4,6 +4,10 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      boxShadow: {
+        'menu': '0 -10px 0 0 rgba(30,41,59)',
+        'menu-white': '0 -10px 0 0 white',
+      },
       keyframes: {
         upDown: {
           '0%, 100%': {top: '0', left: '0'},
